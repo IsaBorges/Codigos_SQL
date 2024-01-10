@@ -1,4 +1,3 @@
--- Ativos em dez/2015, out/ 2017, jun/2018 e dez/2020,
 USE prod_sei;
 
 SELECT DISTINCT
