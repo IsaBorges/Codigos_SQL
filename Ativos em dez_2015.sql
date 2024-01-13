@@ -4,8 +4,6 @@ A 2° condição pega todos os processos que foram iniciados antes ou em 1 de de
 A 3° condição pega todos os processos que foram iniciados antes ou em 1 de dezembro de 2015 e que ainda não foram encerrados, ou seja, mesmo que o processo ainda esteja em andamento ele esteve ativo em dezembro de 2015. 
 Desse modo, as 3 condições fazem o código cumprir o objetivo desejado. */
 	
-USE prod_sei;
-
 SELECT DISTINCT
     a.protocolo_formatado AS processo,
     c.sigla AS unidade
