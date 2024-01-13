@@ -1,8 +1,6 @@
 /*Extração de informações para montar uma tabela e calcular a média de tempo que um processo fica na unidade 'SCO' após a unidade 'CODI' enviar o
 processo para que ele seja assinado e enviado de volta para a unidade 'CODI'*/
 
-USE prod_sei;
-
 SELECT
 	tabela.processo,
     tabela.tipologia,
