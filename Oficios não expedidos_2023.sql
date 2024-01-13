@@ -1,8 +1,6 @@
 /*Extração de processos e documentos associados a esses processos da unidade 'CODI' para mostrar o que foi ou não expedido, tanto digitalmente quanto 
 pelos correios, em 2023. O código também mostra os processos que estavam cadastrados ou não no litigioso (sistema da ANATEL)*/
 
-USE prod_sei;
-
 SELECT
 	t1.protocolo_formatado AS processo,
     t4.protocolo_formatado AS documento,
