@@ -2,8 +2,6 @@
 ponto de controle é a origem principal e o seu destino também é uma origem que tem outro destino e assim em diante até que chege no último ponto de 
 controle que é considerado apenas como destino. Por essa razão foram usados sub selects*/
 
-USE prod_sei;
-
 SELECT 
 	tabela.processo,
 	tabela.tipologia,
